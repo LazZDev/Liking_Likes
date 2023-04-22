@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    margin: 30px 80px;
+    width: 460px;
+    height: 120px;
+}
+
+.some-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: baseline;
+    padding: 10px 0px;
+}
+
+#like-button {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 5px 15px;
+    box-shadow: 4px 4px 2px 1px black;
+}
+
+.filler-text {
+    display: flex;
+    padding: 10px 25px;
+    width: 280px;
+}

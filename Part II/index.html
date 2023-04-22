@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <script src="/js/script.js" defer></script>
+        <title>Likes</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="titles">
+                <h1 class="net">Network</h1>
+                <h1 class="feed">Your Feed</h1>
+            </div>
+            <div class="sub-container">
+                <div class="avatar-box">
+                    <img
+                        class="icon"
+                        src="/img/user-icon.jpg"
+                        alt="user-icon"
+                    />
+                    <a href="#">Add an avatar</a>
+                    <h2>James Doe</h2>
+                </div>
+                <div class="users-wrapper">
+                    <div class="like-boxes">
+                        <div class="user">
+                            <h2 class="name">Neil</h2>
+                            <div class="button">
+                                <h2 class="likes">
+                                    <span id="likes-count1">9</span> like(s)
+                                </h2>
+                                <button
+                                    id="like-button1"
+                                    onclick="incrementLikes()"
+                                >
+                                    Like
+                                </button>
+                            </div>
+                        </div>
+                        <p class="filler-text">
+                            I just set up this new discord bot, let me<br />
+                            know what you all think. <a href="#">link</a>
+                        </p>
+                    </div>
+                    <div class="like-boxes">
+                        <div class="user">
+                            <h2 class="name">Nichole K</h2>
+                            <div class="button">
+                                <h2 class="likes">
+                                    <span id="likes-count2">12</span> like(s)
+                                </h2>
+                                <button
+                                    id="like-button2"
+                                    onclick="incrementLikes()"
+                                >
+                                    Like
+                                </button>
+                            </div>
+                        </div>
+                        <p class="filler-text">
+                            Just finished my <a href="#">next comic</a>, check
+                            it out.
+                        </p>
+                    </div>
+                    <div class="like-boxes">
+                        <div class="user">
+                            <h2 class="name">Jim R</h2>
+                            <div class="button">
+                                <h2 class="likes">
+                                    <span id="likes-count3">9</span> like(s)
+                                </h2>
+                                <button
+                                    id="like-button3"
+                                    onclick="incrementLikes()"
+                                >
+                                    Like
+                                </button>
+                            </div>
+                        </div>
+                        <p class="filler-text">
+                            I can't stop listening to the
+                            <a href="#">new album</a>.<br />
+                            Who else is liking it?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
